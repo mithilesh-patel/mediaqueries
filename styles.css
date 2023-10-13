@@ -11,12 +11,16 @@
 
 
 .firstrow-wrapper{
-    color: rgb(78, 0, 204);
-    height: 2rem;
+    background-color: rgb(40, 26, 63);
+    height: 4rem;
 }
 
 
+.firstrow{
+    display: flex;
+}
+
 
 #logo{
-    width: 150px;
+    height: 4rem;
 }
