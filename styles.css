@@ -9,6 +9,11 @@
     margin: 0 auto;
 }
 
+body{
+    background-color: rgb(70, 70, 70);
+}
+
+/* FIRST ROW */
 
 .firstrow-wrapper{
     background-color: rgb(40, 26, 63);
@@ -18,9 +23,49 @@
 
 .firstrow{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input#header-search{
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 
 #logo{
     height: 4rem;
+}
+
+
+/* SECOND ROW */
+
+.secondrow-wrapper{
+    background-color: #fff;
+}   
+
+.secondrow .navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.secondrow .navbar ul li{
+    list-style-type: none;
+    padding: 10px;
+    background-color: rgb(199, 199, 199);margin: 5px;
+}
+
+.secondrow .navbar ul li:hover{
+    cursor: pointer;
+    list-style-type: none;
+    padding: 10px;
+    background-color: rgb(156, 156, 156);margin: 5px;
+}
+
+.secondrow .navbar ul li a{
+    text-decoration: none;
+    color: black;
 }
