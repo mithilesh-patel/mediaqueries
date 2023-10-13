@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.max-content-size{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.firstrow-wrapper{
+    color: rgb(78, 0, 204);
+    height: 2rem;
+}
+
+
+
+#logo{
+    width: 150px;
+}
